@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Delivery Service</title>
+</head>
+<body>
+    <h1>Welcome to Our Package Delivery Service</h1>
+    <p>Efficiently send and track your packages with us!</p>
+    
+    <h2>Send a Package</h2>
+    <form action="/submit-package" method="post">
+        <label for="senderName">Sender's Name:</label>
+        <input type="text" id="senderName" name="senderName" required><br><br>
+        
+        <label for="senderAddress">Sender's Address:</label>
+        <input type="text" id="senderAddress" name="senderAddress" required><br><br>
+        
+        <label for="recipientName">Recipient's Name:</label>
+        <input type="text" id="recipientName" name="recipientName" required><br><br>
+        
+        <label for="recipientAddress">Recipient's Address:</label>
+        <input type="text" id="recipientAddress" name="recipientAddress" required><br><br>
+        
+        <label for="packageDetails">Package Details:</label>
+        <textarea id="packageDetails" name="packageDetails" required></textarea><br><br>
+        
+        <input type="submit" value="Send Package">
+    </form>
+    
+    <h2>Track a Package</h2>
+    <form action="/track-package" method="get">
+        <label for="trackingNumber">Tracking Number:</label>
+        <input type="text" id="trackingNumber" name="trackingNumber" required><br><br>
+        
+        <input type="submit" value="Track Package">
+    </form>
+</body>
+</html>

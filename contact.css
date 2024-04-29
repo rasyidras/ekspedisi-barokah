@@ -1,0 +1,14 @@
+.container {
+    top: 30%; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%; /* Adjust as needed */
+    left: 20%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 24px; /* Text size */
+    text-align: center; /* Center the text horizontally */
+}

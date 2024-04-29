@@ -1,0 +1,24 @@
+body{
+    background-color: green;
+}
+.container {
+    width: 100%;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 24px; /* Text size */
+    text-align: center; /* Center the text horizontally */
+
+}
+.text-isi{
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 35%; /* Adjust as needed */
+    color: rgb(7, 0, 0); /* Text color */
+    font-size: 24px; /* Text size */
+}
